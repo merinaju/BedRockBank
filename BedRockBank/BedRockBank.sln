@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedRockBank", "BedRockBank\BedRockBank.csproj", "{6E7CB6B2-B26F-436F-B8E7-29348D9F72DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedRock", "BedRock\BedRock.csproj", "{829BF937-CBFD-4782-92B6-15E97CA1A492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedRockbankUI", "BedRockbankUI\BedRockbankUI.csproj", "{6478AAFD-6AB0-4DE3-A9BD-98680ED09181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7D97DFCE-3E45-43A1-8814-AEF0417AE123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{82323204-2B7A-4981-A2BE-675F7F0FEFDD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{E294BE5A-BB5C-4F06-8166-9668BF55934E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\BedRockbankUI.json = PublishScripts\Templates\BedRockbankUI.json
+		PublishScripts\Templates\BedRockbankUI.param.dev.json = PublishScripts\Templates\BedRockbankUI.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E7CB6B2-B26F-436F-B8E7-29348D9F72DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7CB6B2-B26F-436F-B8E7-29348D9F72DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7CB6B2-B26F-436F-B8E7-29348D9F72DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7CB6B2-B26F-436F-B8E7-29348D9F72DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829BF937-CBFD-4782-92B6-15E97CA1A492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829BF937-CBFD-4782-92B6-15E97CA1A492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829BF937-CBFD-4782-92B6-15E97CA1A492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829BF937-CBFD-4782-92B6-15E97CA1A492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6478AAFD-6AB0-4DE3-A9BD-98680ED09181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6478AAFD-6AB0-4DE3-A9BD-98680ED09181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6478AAFD-6AB0-4DE3-A9BD-98680ED09181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6478AAFD-6AB0-4DE3-A9BD-98680ED09181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82323204-2B7A-4981-A2BE-675F7F0FEFDD} = {7D97DFCE-3E45-43A1-8814-AEF0417AE123}
+		{E294BE5A-BB5C-4F06-8166-9668BF55934E} = {7D97DFCE-3E45-43A1-8814-AEF0417AE123}
+	EndGlobalSection
+EndGlobal
