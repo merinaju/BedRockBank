@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "BedRockBank"
+  },
+  "hostingPlanName": {
+    "value": "BeginnerProjects"
+  },
+  "siteLocation": {
+    "value": "North Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "a706bb1f-4755-4fc4-b722-00222bd70802"
+  },
+  "resourceGroup": {
+    "value": "BeginnerProjects"
+  }
+}
